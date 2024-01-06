@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { motion } from "framer-motion";
 
 //React icons
@@ -9,6 +9,7 @@ import { BiSolidFileCss } from "react-icons/bi";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
+import { DarkModeContext } from "../Hooks/ThemeContext";
 
 //framer motion
 const titleVariant = {
@@ -40,15 +41,18 @@ const textVariant = {
 };
 
 const Home = () => {
+
+  const {darkMode, setDarkMode} = useContext(DarkModeContext)
+
   return (
-    <section className="transition duration-700 ease relative  h-screen sm:py-20 flex items-center justify-center">
+    <section className={`${darkMode ? "bg-slate-900" : ""} transition duration-700 ease relative  h-screen sm:py-20 flex items-center justify-center`} >
       <div className="m-auto sm:w-[90%]  md:w-[80%] flex md:flex-col xl:flex-row items-center justify-around">
-        <div className="z-50">
+        <div className="z-50 da">
           <motion.h1
             variants={titleVariant}
             initial="offScreen"
             whileInView={`onScreen`}
-            className="relative text-3xl md:text-5xl text-center font-extrabold  md:text-start"
+            className={`${darkMode ? "text-white" : ""} relative text-3xl md:text-5xl text-center font-extrabold  md:text-start`}
           >
             Nikko Mallari <span className="">👋🏻</span>
           </motion.h1>
@@ -56,7 +60,7 @@ const Home = () => {
             variants={textVariant}
             initial="offScreen"
             whileInView={`onScreen`}
-            className="text-center text-xl font-bold tracking-relaxed sm:mt-0 md:my-5 leading-6 md:text-start"
+            className={`${darkMode ? "text-white" : ""} text-center text-xl font-bold tracking-relaxed sm:mt-0 md:my-5 leading-6 md:text-start`}
           >
             Full Stack Developer 📍
           </motion.h2>
@@ -66,16 +70,15 @@ const Home = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaLinkedin className=" text-4xl "></FaLinkedin>
+              <FaLinkedin className=" text-4xl " style={{color: `${darkMode ? "white" : ""}`}} />
             </a>
             <a
               href="https://github.com/nm1008"
               target="_blank"
               rel="noreferrer"
             >
-              <FaSquareGithub className="text-4xl ml-5" />
+              <FaSquareGithub className="text-4xl ml-5"  style={{color: `${darkMode ? "white" : ""}`}} />
             </a>
-          
           </div>
           <div className="relative flex sm:flex-col xl:flex-row items-center mt-10 xl:mt-5  z-40">
             <div className="  transition flex flex-wrap justify-center gap-5 xl:mt-0 sm:mt-5">
@@ -94,6 +97,7 @@ const Home = () => {
                 transition={{ duration: 1.1, type: "spring", bounce: 0.4 }}
                 viewport={{ once: true }}
                 className=" w-[60px] bg-white shadow-xl rounded-full  p-2"
+            
               >
                 <BiSolidFileCss className="text-5xl" />
               </motion.div>
@@ -124,12 +128,12 @@ const Home = () => {
               >
                 <SiTailwindcss className="text-5xl" />
               </motion.div>
-             
             </div>
           </div>
         </div>
       </div>
-      <div className="  transition duration-1000 ease-in absolute top-[20px] right-[10px]">
+
+      <div className={`${darkMode ? "scale-100" : "scale-0"} transition duration-1000 ease-in absolute top-[20px] right-[10px]`}>
         <div className="w-[100px] md:w-[200px]">
           <img src="../src/images/moon.svg" alt="Moon" /> {/* Moon */}
           <div className="w-[30px] md:w-[60px] absolute top-[30px] left-[17px] md:top-[60px] md:left-[60px]">
