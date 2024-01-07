@@ -10,10 +10,14 @@ import { DarkModeContext } from "../Hooks/ThemeContext";
 
 const Header = () => {
   const { darkMode, setDarkMode } = useContext(DarkModeContext);
-  // style={{color: `${darkMode ? "white" : ""}`}}
+
   return (
     <header className="z-50 w-full flex xl:flex justify-center fixed bottom-0 h-[8vh]  xl:top-60 xl:right-8 xl:h-[60vh] xl:w-[70px] bg-red-500 xl:rounded-md bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-0 border-t xl:border border-blue-300 p-5">
-      <nav className={`${darkMode ? "text-white" : ""} flex space-x-10 xl:space-x-0 xl:flex-col xl:space-y-10 py-1 items-center justify-center` }>
+      <nav
+        className={`${
+          darkMode ? "text-white" : ""
+        } flex space-x-10 xl:space-x-0 xl:flex-col xl:space-y-10 py-1 items-center justify-center`}
+      >
         <a href="#" className="flex flex-col items-center">
           <IoHomeOutline className="w-6 h-6" />
           <span className="text-[12px]">Home</span>
