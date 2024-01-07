@@ -1,10 +1,8 @@
-import { useState, useEffect } from 'react'
-import axios from 'axios'
-import './App.css'
-import Header from './Header/Header'
-import About from './pages/About'
-import Home from './pages/Home'
-import { DarkModeProvider } from './Hooks/ThemeContext'
+import "./App.css";
+import Header from "./Header/Header";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import { DarkModeProvider } from "./Hooks/ThemeContext";
 
 function App() {
   return (
@@ -13,7 +11,7 @@ function App() {
       <Home />
       <About />
     </DarkModeProvider>
-  )
+  );
 }
 
-export default App
+export default App;

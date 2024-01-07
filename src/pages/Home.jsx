@@ -45,7 +45,7 @@ const Home = () => {
   const {darkMode, setDarkMode} = useContext(DarkModeContext)
 
   return (
-    <section className={`${darkMode ? "bg-slate-900" : ""} transition duration-700 ease relative  h-screen sm:py-20 flex items-center justify-center`} >
+    <section className={`${darkMode ? "bg-slate-900" : ""} transition duration-700 ease relative h-screen sm:py-20 flex items-center justify-center`} >
       <div className="m-auto sm:w-[90%]  md:w-[80%] flex md:flex-col xl:flex-row items-center justify-around">
         <div className="z-50 da">
           <motion.h1
@@ -54,7 +54,7 @@ const Home = () => {
             whileInView={`onScreen`}
             className={`${darkMode ? "text-white" : ""} relative text-3xl md:text-5xl text-center font-extrabold  md:text-start`}
           >
-            Nikko Mallari <span className="">👋🏻</span>
+            Nikko Mallari <span className="wave">👋🏻</span>
           </motion.h1>
           <motion.h2
             variants={textVariant}
