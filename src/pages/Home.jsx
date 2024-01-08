@@ -45,6 +45,7 @@ const Home = () => {
 
   return (
     <section
+      id="home"
       className={`${
         darkMode ? "bg-slate-900" : ""
       } transition duration-700 ease relative  h-screen sm:py-20 flex items-center justify-center`}
@@ -55,11 +56,12 @@ const Home = () => {
             variants={titleVariant}
             initial="offScreen"
             whileInView={`onScreen`}
+            id="name"
             className={`${
               darkMode ? "text-white" : ""
-            } relative text-3xl md:text-5xl text-center font-extrabold  md:text-start`}
+            } relative text-3xl md:text-5xl text-center font-bold  md:text-start tracking-wide`}
           >
-            Nikko Mallari <span className="wave">👋🏻</span>
+            Nikko Mallari<span className="wave"> 👋🏻</span>
           </motion.h1>
           <motion.h2
             variants={textVariant}
@@ -151,9 +153,9 @@ const Home = () => {
         } transition duration-1000 ease-in absolute top-[20px] right-[10px]`}
       >
         <div className="w-[100px] md:w-[200px]">
-          <img src="../src/images/moon.svg" alt="Moon" /> {/* Moon */}
+          <img src="../src/images/moon.svg" alt="Moon" />
           <div className="w-[30px] md:w-[60px] absolute top-[30px] left-[17px] md:top-[60px] md:left-[60px]">
-            <img src="../src/images/stars.svg" alt="Stars" /> {/* Stars */}
+            <img src="../src/images/stars.svg" alt="Stars" />
           </div>
         </div>
       </div>
@@ -163,7 +165,7 @@ const Home = () => {
         whileInView={{ scale: 1 }}
         transition={{ duration: 0.3 }}
         viewport={{ once: true }}
-        className="absolute top-[-190px] left-[-190px] bottom-["
+        className="absolute top-[-190px] left-[-190px]"
       >
         <div className="w-[400px] md:w-[500px]">
           <img
