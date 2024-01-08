@@ -22,7 +22,7 @@ const Header = () => {
           <FaRegAddressCard className="w-7 h-7" />
           <span className="text-[12px]">Profile</span>
         </a>
-        <a href="#" className="flex flex-col items-center">
+        <a href="#project" className="flex flex-col items-center">
           <VscChecklist className="w-7 h-7" />
           <span className="text-[12px]">Projects</span>
         </a>

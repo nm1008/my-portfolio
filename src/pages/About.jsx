@@ -56,7 +56,7 @@ const About = () => {
           variants={imageVariant}
           className="flex justify-center items-center"
         >
-          <div className="relative ">
+          <div className="relative z-50">
             <img
               className="w-72 h-full rounded-xl   "
               src="../src/images/portfolio-pic.png"
