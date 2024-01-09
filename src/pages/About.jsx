@@ -2,7 +2,8 @@ import React, { useContext } from "react";
 import { motion } from "framer-motion";
 
 import { DarkModeContext } from "../Hooks/ThemeContext";
-import Waves from "../components/waves";
+import WavesNight from "../components/Waves-Light";
+import WavesLight from "../components/Waves-Light";
 
 const imageVariant = {
   offScreen: {
@@ -44,7 +45,7 @@ const About = () => {
       id="about"
       className={`${
         darkMode ? "bg-slate-800" : ""
-      }  relative transition duration-700 ease py-20 flex items-center justify-center overflow-hidden`}
+      }  relative transition duration-700 ease py-20 flex items-center justify-center overflow`}
     >
       <motion.div
         initial="offScreen"
@@ -56,7 +57,7 @@ const About = () => {
           variants={imageVariant}
           className="flex justify-center items-center"
         >
-          <div className="relative z-50">
+          <div className="relative ">
             <img
               className="w-72 h-full rounded-xl   "
               src="../src/images/portfolio-pic.png"
@@ -88,7 +89,7 @@ const About = () => {
       </motion.div>
 
       <div className="absolute top-[-10px] md:[top-[-20px]] w-full">
-        {darkMode ? <Waves /> : <div></div>}
+        {darkMode ? <WavesNight /> : <WavesLight />}
       </div>
     </section>
   );

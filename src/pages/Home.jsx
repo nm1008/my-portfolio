@@ -47,7 +47,7 @@ const Home = () => {
     <section
       id="home"
       className={`${
-        darkMode ? "bg-slate-900" : ""
+        darkMode ? "bg-slate-900" : "bg-slate-50"
       } transition duration-700 ease relative  h-screen sm:py-20 flex items-center justify-center`}
     >
       <div className="m-auto sm:w-[90%]  md:w-[80%] flex md:flex-col xl:flex-row items-center justify-around">

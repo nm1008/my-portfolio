@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Waves = () => {
+const WavesNight = () => {
   return (
     <div>
       <img className="w-full " src='./src/images/wave-night.svg' alt="waves" />
@@ -8,4 +8,4 @@ const Waves = () => {
   )
 }
 
-export default Waves
+export default WavesNight
