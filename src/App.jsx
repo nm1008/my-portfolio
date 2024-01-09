@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import { DarkModeProvider } from "./Hooks/ThemeContext";
 import Project from "./pages/Project";
+import Skills from "./pages/Skills";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <About />
       <Project />
+      <Skills />
     </DarkModeProvider>
   );
 }

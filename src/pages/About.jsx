@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { motion } from "framer-motion";
 
 import { DarkModeContext } from "../Hooks/ThemeContext";
-import WavesNight from "../components/Waves-Light";
+import WavesNight from "../components/Waves-Night";
 import WavesLight from "../components/Waves-Light";
 
 const imageVariant = {
