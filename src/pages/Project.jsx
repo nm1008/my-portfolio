@@ -1,6 +1,9 @@
 import React, { useContext } from "react";
 import { DarkModeContext } from "../Hooks/ThemeContext";
 
+import { FaSquareGithub } from "react-icons/fa6";
+import { BsFillFolderSymlinkFill } from "react-icons/bs";
+
 import { motion } from "framer-motion";
 
 const Project = () => {
@@ -12,7 +15,7 @@ const Project = () => {
         darkMode ? "bg-slate-900 text-white" : "bg-slate-50"
       } transition duration-700 ease xl:h-full py-20 relative overflow-hidden px-5`}
     >
-      <div className="m-auto w-[90%] xl:w-[60%]">
+      <div className="m-auto w-[90%] xl:w-[60%] md:w-[80%]">
         <h1 className="text-xl font-bold text-blue-500 uppercase text-center">
           Projects
         </h1>
@@ -48,20 +51,20 @@ const Project = () => {
               Voluptates impedit vel id expedita aliquam a repudiandae, officia,
               cupiditate, molestiae magnam quis vero. Omnis, quaerat sequi.
             </motion.p>
-            <div className="flex flex-wrap gap-5 text-slate-900 justify-center">
-              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+            <div className="flex flex-wrap gap-5 text-slate-900 justify-center ">
+              <span className="shadow-md border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 React
               </span>
-              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+              <span className="shadow-md border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 Tailwind
               </span>
-              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+              <span className="shadow-md border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 Node JS
               </span>
-              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+              <span className="shadow-md border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 Express
               </span>
-              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+              <span className="shadow-md border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 MongoDB
               </span>
             </div>
@@ -72,7 +75,7 @@ const Project = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Code <i className="fa-brands fa-github text-2xl"></i>
+                Code <FaSquareGithub className="text-2xl md:text-3xl" />
               </a>
               <a
                 className="flex text-slate-900 font-semibold items-center justify-between gap-2 "
@@ -81,15 +84,13 @@ const Project = () => {
                 rel="noreferrer"
               >
                 Live Demo{" "}
-                <i className="fa-solid fa-share-from-square text-2xl"></i>
+                <BsFillFolderSymlinkFill className="text-2xl md:text-3xl" />
               </a>
             </div>
           </div>
         </motion.div>
-      </div>
 
-      {/* Second Project */}
-      <div className="m-auto w-[90%] xl:w-[60%] rounded-xl">
+          {/* Second Project */}
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -116,16 +117,16 @@ const Project = () => {
               <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 React
               </span>
-              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+              <span className="shadow-md border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 Tailwind
               </span>
-              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+              <span className="shadow-md border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 Node JS
               </span>
-              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+              <span className="shadow-md border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 Express
               </span>
-              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+              <span className="shadow-md border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 MongoDB
               </span>
             </div>
@@ -136,7 +137,7 @@ const Project = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Code <i className="fa-brands fa-github text-2xl"></i>
+                Code <FaSquareGithub className="text-2xl md:text-3xl" />
               </a>
               <a
                 className="flex text-slate-900 font-semibold items-center justify-between gap-2 "
@@ -145,7 +146,7 @@ const Project = () => {
                 rel="noreferrer"
               >
                 Live Demo{" "}
-                <i className="fa-solid fa-share-from-square text-2xl"></i>
+                <BsFillFolderSymlinkFill className="text-2xl md:text-3xl" />
               </a>
             </div>
           </div>
@@ -176,7 +177,7 @@ const Project = () => {
 
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col space-y-5 py-3">
             <h1 className="text-center text-slate-900 font-bold text-[20px] ">
-             Pokedex ⚡
+              Pokedex ⚡
             </h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
@@ -190,13 +191,12 @@ const Project = () => {
               cupiditate, molestiae magnam quis vero. Omnis, quaerat sequi.
             </motion.p>
             <div className="flex flex-wrap gap-5 text-slate-900 justify-center">
-              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+              <span className="shadow-md border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 React
               </span>
-              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+              <span className="shadow-md border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 Tailwind
               </span>
-           
             </div>
             <div className="flex gap-5 items-center justify-center">
               <a
@@ -205,7 +205,7 @@ const Project = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Code <i className="fa-brands fa-github text-2xl"></i>
+                Code <FaSquareGithub className="text-2xl md:text-3xl" />
               </a>
               <a
                 className="flex text-slate-900 font-semibold items-center justify-between gap-2 "
@@ -214,7 +214,7 @@ const Project = () => {
                 rel="noreferrer"
               >
                 Live Demo{" "}
-                <i className="fa-solid fa-share-from-square text-2xl"></i>
+                <BsFillFolderSymlinkFill className="text-2xl md:text-3xl" />
               </a>
             </div>
           </div>

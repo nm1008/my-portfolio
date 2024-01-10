@@ -51,7 +51,7 @@ const About = () => {
         initial="offScreen"
         whileInView="onScreen"
         viewport={{ once: true }}
-        className="m-auto sm:w-[90%]  md:w-[60%] grid xl:grid-cols-2 gap-10 z-50 "
+        className="m-auto sm:w-[90%]  md:w-[60%] grid xl:grid-cols-2 gap-10  lg:mt-10 "
       >
         <motion.div
           variants={imageVariant}

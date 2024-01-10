@@ -47,7 +47,7 @@ const Home = () => {
     <section
       id="home"
       className={`${
-        darkMode ? "bg-slate-900" : "bg-slate-50"
+        darkMode ? "bg-slate-900 text-white" : "bg-slate-50"
       } transition duration-700 ease relative  h-screen sm:py-20 flex items-center justify-center`}
     >
       <div className="m-auto sm:w-[90%]  md:w-[80%] flex md:flex-col xl:flex-row items-center justify-around">
@@ -95,52 +95,72 @@ const Home = () => {
               />
             </a>
           </div>
-          <div className="relative flex sm:flex-col xl:flex-row items-center mt-10 xl:mt-5  z-40">
-            <div className="  transition flex flex-wrap justify-center gap-5 xl:mt-0 sm:mt-5">
+          <div className="relative flex sm:flex-col xl:flex-row items-center  xl:mt-5 sm:mt-10 z-40 ">
+            <div className=" tech-icons  transition flex flex-wrap justify-center gap-5 xl:mt-0 mt-5">
               <motion.div
                 initial={{ opacity: 0, y: -50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, type: "spring", bounce: 0.4 }}
                 viewport={{ once: true }}
-                className=" w-[60px] bg-white shadow-xl rounded-full  p-2"
+                className="  w-[60px] bg-white shadow-xl rounded-full  p-2    "
               >
-                <TiHtml5 className="text-5xl" />
+                <img
+                  className="w-full h-full rounded-full"
+                  src="../src/images/htmlIcon.svg"
+                  alt=""
+                />
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: -50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.1, type: "spring", bounce: 0.4 }}
                 viewport={{ once: true }}
-                className=" w-[60px] bg-white shadow-xl rounded-full  p-2"
+                className=" w-[60px] bg-white shadow-xl rounded-full  p-2   "
               >
-                <BiSolidFileCss className="text-5xl" />
+                <img
+                  className="w-full h-full "
+                  src="../src/images/cssIcon.svg"
+                  alt=""
+                />
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: -50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.6, type: "spring", bounce: 0.4 }}
                 viewport={{ once: true }}
-                className=" w-[60px] bg-white shadow-xl rounded-full  p-2"
+                className=" w-[60px]      bg-white shadow-xl rounded-full  p-2   "
               >
-                <IoLogoJavascript className="text-5xl " />
+                <img
+                  className="w-full h-full  rounded-full"
+                  src="../src/images/javascriptIcon.svg"
+                  alt=""
+                />
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: -50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 2.1, type: "spring", bounce: 0.4 }}
                 viewport={{ once: true }}
-                className=" w-[60px] bg-white shadow-xl rounded-full  p-2"
+                className=" w-[60px]    bg-white shadow-xl rounded-full  p-2  "
               >
-                <FaReact className="text-5xl" />
+                <img
+                  className="w-full h-full"
+                  src="../src/images/reactIcon.svg"
+                  alt=""
+                />
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: -50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 2.7, type: "spring", bounce: 0.4 }}
                 viewport={{ once: true }}
-                className=" w-[60px] bg-white shadow-xl rounded-full  p-2"
+                className="  w-[60px] bg-white shadow-xl rounded-full  p-2   "
               >
-                <SiTailwindcss className="text-5xl" />
+                <img
+                  className="w-full h-full "
+                  src="../src/images/tailwindIcon.svg"
+                  alt=""
+                />
               </motion.div>
             </div>
           </div>

@@ -5,8 +5,10 @@ import Home from "./pages/Home";
 import { DarkModeProvider } from "./Hooks/ThemeContext";
 import Project from "./pages/Project";
 import Skills from "./pages/Skills";
+import Footer from "./pages/Footer";
+import Contact from "./pages/Contact";
 
-function App() {
+const App = () => {
   return (
     <DarkModeProvider>
       <Header />
@@ -14,8 +16,10 @@ function App() {
       <About />
       <Project />
       <Skills />
+      <Contact />
+      <Footer />
     </DarkModeProvider>
   );
-}
+};
 
 export default App;
