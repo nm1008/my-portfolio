@@ -25,7 +25,7 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img
                 className="w-[40px] h-[40px]"
-                src="../src/images/react.svg"
+                src="/images/react.svg"
               />
               <span className="text-white">React</span>
             </div>
@@ -33,7 +33,7 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img
                 className="w-[40px] h-[40px]"
-                src="../src/images/nextJS.png"
+                src="/images/nextJS.png"
               />
               <span className="text-white">NextJS</span>
             </div>
@@ -41,20 +41,20 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img
                 className="w-[40px] h-[40px]"
-                src="../src/images/htmlLogo.png"
+                src="/images/htmlLogo.png"
               />
               <span className="text-white">HTML</span>
             </div>
 
             <div className="flex flex-col items-center">
-              <img className="w-[40px] h-[40px]" src="../src/images/css.png" />
+              <img className="w-[40px] h-[40px]" src="/images/css.png" />
               <span className="text-white">CSS</span>
             </div>
 
             <div className="flex flex-col items-center">
               <img
                 className="w-[40px] h-[40px]"
-                src="../src/images/bootstrap.png"
+                src="/images/bootstrap.png"
               />
               <span className="text-white">Bootstrap</span>
             </div>
@@ -62,7 +62,7 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img
                 className="w-[60px] h-[40px]"
-                src="../src/images/tailwind.png"
+                src="/images/tailwind.png"
               />
               <span className="text-white">Tailwind</span>
             </div>
@@ -70,7 +70,7 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img
                 className="w-[40px] h-[40px]"
-                src="../src/images/javascript.png"
+                src="/images/javascript.png"
               />
               <span className="text-white">Javascript</span>
             </div>
@@ -78,7 +78,7 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img
                 className="w-[40px] h-[40px]"
-                src="../src/images/typescript.png"
+                src="/images/typescript.png"
               />
               <span className="text-white">Typscript</span>
             </div>
@@ -86,7 +86,7 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img
                 className="w-[40px] h-[40px]"
-                src="../src/images/mongoDB.png"
+                src="/images/mongoDB.png"
               />
               <span className="text-white">MongoDB</span>
             </div>
@@ -94,7 +94,7 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img
                 className="w-[100px] h-[40px]"
-                src="../src/images/expressjs.png"
+                src="/images/expressjs.png"
               />
               <span className="text-white">Express JS</span>
             </div>
@@ -102,7 +102,7 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img
                 className="w-[60px] h-[40px]"
-                src="../src/images/nodejs.png"
+                src="/images/nodejs.png"
               />
               <span className="text-white">Node JS</span>
             </div>

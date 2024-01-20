@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <section className="bg-slate-900 py-10 mb-16 xl:mb-0 xl:py-6 ">

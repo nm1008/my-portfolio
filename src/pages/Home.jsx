@@ -101,8 +101,8 @@ const Home = () => {
               >
                 <img
                   className="w-full h-full rounded-full"
-                  src="../src/images/htmlIcon.svg"
-                  alt=""
+                  src="/images/htmlIcon.svg"
+                  alt="htmlIcon"
                 />
               </motion.div>
               <motion.div
@@ -114,8 +114,8 @@ const Home = () => {
               >
                 <img
                   className="w-full h-full "
-                  src="../src/images/cssIcon.svg"
-                  alt=""
+                  src="/images/cssIcon.svg"
+                  alt="cssIcon"
                 />
               </motion.div>
               <motion.div
@@ -127,8 +127,8 @@ const Home = () => {
               >
                 <img
                   className="w-full h-full  rounded-full"
-                  src="../src/images/javascriptIcon.svg"
-                  alt=""
+                  src="/images/javascriptIcon.svg"
+                  alt="javascriptIcon"
                 />
               </motion.div>
               <motion.div
@@ -140,8 +140,8 @@ const Home = () => {
               >
                 <img
                   className="w-full h-full"
-                  src="../src/images/reactIcon.svg"
-                  alt=""
+                  src="/images/reactIcon.svg"
+                  alt="reactIcon"
                 />
               </motion.div>
               <motion.div
@@ -153,8 +153,8 @@ const Home = () => {
               >
                 <img
                   className="w-full h-full "
-                  src="../src/images/tailwindIcon.svg"
-                  alt=""
+                  src="/images/tailwindIcon.svg"
+                  alt="tailwindIcon"
                 />
               </motion.div>
             </div>
@@ -168,9 +168,9 @@ const Home = () => {
         } transition duration-1000 ease-in absolute top-[20px] right-[10px]`}
       >
         <div className="w-[100px] md:w-[200px]">
-          <img src="../src/images/moon.svg" alt="Moon" />
+          <img src="/images/moon.svg" alt="Moon" />
           <div className="w-[30px] md:w-[60px] absolute top-[30px] left-[17px] md:top-[60px] md:left-[60px]">
-            <img src="../src/images/stars.svg" alt="Stars" />
+            <img src="/images/stars.svg" alt="Stars" />
           </div>
         </div>
       </div>
@@ -185,7 +185,7 @@ const Home = () => {
         <div className="w-[400px] md:w-[500px]">
           <img
             className="w-full h-full object-cover"
-            src="../src/images/splatter.svg"
+            src="/images/splatter.svg"
             alt="splatter"
           />
         </div>

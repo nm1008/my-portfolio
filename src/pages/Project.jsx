@@ -36,7 +36,7 @@ const Project = () => {
           >
             <img
               className="w-full h-full border-slate-600 border-l-xl"
-              src="../src/images/login.png"
+              src="/images/login.png"
               alt=""
             />
           </a>
@@ -158,7 +158,7 @@ const Project = () => {
           >
             <img
               className="w- h-full border-slate-600 rounded-r-lg "
-              src="../src/images/divimart-frontPage.png"
+              src="/images/divimart-frontPage.png"
               alt=""
             />
           </a>
@@ -175,7 +175,7 @@ const Project = () => {
           <a className="" href="#" target="_blank" rel="noreferrer">
             <img
               className="w-full h-full border-slate-600 border-l-xl"
-              src="../src/images/pokedex-frontPage.png"
+              src="/images/pokedex-frontPage.png"
               alt=""
             />
           </a>
@@ -279,7 +279,7 @@ const Project = () => {
           <a className="" href="#" target="_blank" rel="noreferrer">
             <img
               className="w- h-full border-slate-600 rounded-r-lg "
-              src="../src/images/4-in-1-frontPage.png"
+              src="/images/4-in-1-frontPage.png"
               alt=""
             />
           </a>

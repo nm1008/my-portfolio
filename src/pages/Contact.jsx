@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="absolute w-[100px] xl:w-[150px] top-0 right-0 xl:right-20">
         <img
           className="w-full h-full"
-          src="../src/images/message.png"
+          src="/images/message.png"
         />
       </div>
 
@@ -29,7 +29,7 @@ const Contact = () => {
               <div className="w-[50px]">
                 <img
                   className="w-full h-full object-cover"
-                  src="../src/images/location.png"
+                  src="/images/location.png"
                   alt=""
                 />
               </div>
@@ -43,7 +43,7 @@ const Contact = () => {
               <div className="w-[50px]">
                 <img
                   className="w-full h-full"
-                  src="../src/images/email.png"
+                  src="/images/email.png"
                   alt=""
                 />
               </div>

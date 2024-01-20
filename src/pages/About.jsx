@@ -60,7 +60,7 @@ const About = () => {
           <div className="relative ">
             <img
               className="w-72 h-full rounded-xl   "
-              src="../src/images/portfolio-pic.png"
+              src="/images/portfolio-pic.png"
               alt="portfolio-pic"
             />
           </div>
