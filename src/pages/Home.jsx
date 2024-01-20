@@ -46,7 +46,7 @@ const Home = () => {
       } transition duration-700 ease relative  h-screen sm:py-20 flex items-center justify-center`}
     >
       <div className="m-auto sm:w-[90%]  md:w-[80%] flex md:flex-col xl:flex-row items-center justify-around">
-        <div className="z-50 da">
+        <div className="z-50">
           <motion.h1
             variants={titleVariant}
             initial="offScreen"
@@ -97,7 +97,7 @@ const Home = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, type: "spring", bounce: 0.4 }}
                 viewport={{ once: true }}
-                className="  w-[60px] bg-white shadow-xl rounded-full  p-2    "
+                className="  w-[60px] bg-white shadow-xl rounded-full  p-2"
               >
                 <img
                   className="w-full h-full rounded-full"
@@ -110,7 +110,7 @@ const Home = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.1, type: "spring", bounce: 0.4 }}
                 viewport={{ once: true }}
-                className=" w-[60px] bg-white shadow-xl rounded-full  p-2   "
+                className=" w-[60px] bg-white shadow-xl rounded-full  p-2"
               >
                 <img
                   className="w-full h-full "
@@ -123,7 +123,7 @@ const Home = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.6, type: "spring", bounce: 0.4 }}
                 viewport={{ once: true }}
-                className=" w-[60px]      bg-white shadow-xl rounded-full  p-2   "
+                className=" w-[60px]      bg-white shadow-xl rounded-full  p-2"
               >
                 <img
                   className="w-full h-full  rounded-full"
@@ -136,7 +136,7 @@ const Home = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 2.1, type: "spring", bounce: 0.4 }}
                 viewport={{ once: true }}
-                className=" w-[60px]    bg-white shadow-xl rounded-full  p-2  "
+                className=" w-[60px]    bg-white shadow-xl rounded-full  p-2"
               >
                 <img
                   className="w-full h-full"
@@ -149,7 +149,7 @@ const Home = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 2.7, type: "spring", bounce: 0.4 }}
                 viewport={{ once: true }}
-                className="  w-[60px] bg-white shadow-xl rounded-full  p-2   "
+                className="  w-[60px] bg-white shadow-xl rounded-full  p-2"
               >
                 <img
                   className="w-full h-full "

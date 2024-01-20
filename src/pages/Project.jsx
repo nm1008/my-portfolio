@@ -36,7 +36,7 @@ const Project = () => {
           >
             <img
               className="w-full h-full border-slate-600 border-l-xl"
-              src="/images/login.png"
+              src="/images/login.PNG"
               alt=""
             />
           </a>
