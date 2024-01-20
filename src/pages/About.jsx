@@ -45,7 +45,7 @@ const About = () => {
       id="about"
       className={`${
         darkMode ? "bg-slate-800" : ""
-      }  relative transition duration-700 ease py-20 flex items-center justify-center overflow`}
+      }  relative transition duration-700 ease py-20 flex items-center justify-center overflow mx-2`}
     >
       <motion.div
         initial="offScreen"
@@ -78,12 +78,15 @@ const About = () => {
               darkMode ? "text-white" : "text-gray-500 "
             } tracking-wide space-y-2 leading-8`}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni unde
-            rem odio ex ut, consectetur debitis magnam, facere saepe iste
-            inventore ea consequatur iure eaque accusantium veritatis sit
-            recusandae, adipisci optio aut explicabo aliquid modi tenetur
-            dolores! Debitis voluptas reiciendis deleniti sequi accusamus,
-            facilis, repellendus vero mollitia officiis, non modi.
+            As a devoted and enthusiastic learner in the field of development, I
+            possess a keen interest in crafting interactive and user-focused web
+            applications. My foundation lies in mastering the fundamentals of
+            HTML, CSS, and JavaScript to create visually appealing and
+            responsive front-end interfaces. I am passionate about leveraging my
+            skills to design exceptional user experiences and thrive in
+            collaborative, team-oriented settings. I am eager to contribute my
+            expertise to the creation of innovative and engaging web
+            applications.
           </motion.p>
         </motion.div>
       </motion.div>

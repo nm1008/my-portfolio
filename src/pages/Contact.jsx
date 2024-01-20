@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { DarkModeContext } from "../Hooks/ThemeContext";
 
 const Contact = () => {
-  const { darkMode, setDarkMode } = useContext(DarkModeContext);
+  const { darkMode } = useContext(DarkModeContext);
 
   return (
     <section

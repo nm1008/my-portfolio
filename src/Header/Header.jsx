@@ -26,7 +26,7 @@ const Header = () => {
           <VscChecklist className="w-7 h-7" />
           <span className="text-[12px]">Projects</span>
         </a>
-        <a href="#" className="flex flex-col items-center">
+        <a href="#contact" className="flex flex-col items-center">
           <MdOutlineContactPhone className="w-7 h-7" />
           <span className="text-[12px]">Contact</span>
         </a>
