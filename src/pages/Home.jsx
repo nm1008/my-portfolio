@@ -1,17 +1,12 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { motion } from "framer-motion";
 
 //React icons
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
-import { TiHtml5 } from "react-icons/ti";
-import { BiSolidFileCss } from "react-icons/bi";
-import { IoLogoJavascript } from "react-icons/io5";
-import { FaReact } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
 import { DarkModeContext } from "../Hooks/ThemeContext";
 
-//framer motion
+//Framer motion
 const titleVariant = {
   offScreen: {
     opacity: 0,
@@ -41,7 +36,7 @@ const textVariant = {
 };
 
 const Home = () => {
-  const { darkMode, setDarkMode } = useContext(DarkModeContext);
+  const { darkMode } = useContext(DarkModeContext);
 
   return (
     <section

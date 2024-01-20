@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { motion } from "framer-motion";
 
 import { DarkModeContext } from "../Hooks/ThemeContext";
@@ -38,7 +38,7 @@ const textVariant = {
 };
 
 const About = () => {
-  const { darkMode, setDarkMode } = useContext(DarkModeContext);
+  const { darkMode } = useContext(DarkModeContext);
 
   return (
     <section
