@@ -158,8 +158,8 @@ const Project = () => {
           >
             <img
               className="w- h-full border-slate-600 rounded-r-lg "
-              src="/images/divimart-frontPage.png"
-              alt=""
+              src="/images/divimart-frontPage.PNG"
+              alt="divimart-frontPage"
             />
           </a>
         </motion.div>
@@ -175,7 +175,7 @@ const Project = () => {
           <a className="" href="#" target="_blank" rel="noreferrer">
             <img
               className="w-full h-full border-slate-600 border-l-xl"
-              src="/images/pokedex-frontPage.png"
+              src="/images/pokedex-frontPage.PNG"
               alt=""
             />
           </a>
@@ -279,7 +279,7 @@ const Project = () => {
           <a className="" href="#" target="_blank" rel="noreferrer">
             <img
               className="w- h-full border-slate-600 rounded-r-lg "
-              src="/images/4-in-1-frontPage.png"
+              src="/images/4-in-1-frontPage.PNG"
               alt=""
             />
           </a>
