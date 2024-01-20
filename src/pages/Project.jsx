@@ -157,7 +157,7 @@ const Project = () => {
             rel="noreferrer"
           >
             <img
-              className="w- h-full border-slate-600 rounded-r-lg "
+              className="w-full h-full border-slate-600 rounded-r-lg "
               src="/images/divimart-frontPage.PNG"
               alt="divimart-frontPage"
             />
@@ -278,7 +278,7 @@ const Project = () => {
           </div>
           <a className="" href="#" target="_blank" rel="noreferrer">
             <img
-              className="w- h-full border-slate-600 rounded-r-lg "
+              className="w-full h-full border-slate-600 rounded-r-lg "
               src="/images/4-in-1-frontPage.PNG"
               alt=""
             />
