@@ -45,7 +45,7 @@ const About = () => {
       id="about"
       className={`${
         darkMode ? "bg-slate-800" : ""
-      }  relative transition duration-700 ease py-20 flex items-center justify-center overflow mx-2`}
+      }  relative transition duration-700 ease py-20 flex items-center justify-center overflow`}
     >
       <motion.div
         initial="offScreen"
