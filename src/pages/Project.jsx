@@ -120,7 +120,7 @@ const Project = () => {
               Welcome to Divimart, a cutting-edge MERN stack-based e-commerce
               web application seamlessly integrating MongoDB, Express.js, React,
               and Node.js to deliver a dynamic and feature-rich online shopping
-              experience. <p className="mt-2">(Currently developing)</p>
+              experience. 
             </motion.p>
             <div className="flex flex-wrap gap-5 text-slate-900 justify-center lg:px-2">
               <span className="shadow-md border-t border-l border-slate-600 px-5 py-2 rounded-md">
@@ -130,6 +130,10 @@ const Project = () => {
                 Tailwind
               </span>
               <span className="shadow-md border-t border-l border-slate-600 px-5 py-2 rounded-md">
+                Zustand
+              </span>
+
+              {/* <span className="shadow-md border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 Node JS
               </span>
               <span className="shadow-md border-t border-l border-slate-600 px-5 py-2 rounded-md">
@@ -137,7 +141,7 @@ const Project = () => {
               </span>
               <span className="shadow-md border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 MongoDB
-              </span>
+              </span> */}
             </div>
             <div className="flex gap-5 items-center justify-center">
               <a
@@ -148,6 +152,15 @@ const Project = () => {
               >
                 Code <FaSquareGithub className="text-2xl md:text-3xl" />
               </a>
+              <a
+                className="flex text-slate-900 font-semibold items-center justify-between gap-2 "
+                href="https://divimart.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo{" "}
+                <BsFillFolderSymlinkFill className="text-2xl md:text-3xl" />
+                </a>
             </div>
           </div>
           <a
